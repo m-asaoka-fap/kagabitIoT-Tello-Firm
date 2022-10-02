@@ -52,7 +52,7 @@ int wifiSetUpCount = 0;
 /* Serial通信セットアップ*/
 void serialSetup() {
   /* micro:bit connect setup */
-  //CONSOLE.begin(57600);
+  CONSOLE.begin(57600);
   ss.begin(57600); //  baud rateを57600以下に設定しないと文字化け
 }
 /* WiFiセットアップ */
